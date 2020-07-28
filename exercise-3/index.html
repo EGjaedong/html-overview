@@ -19,6 +19,7 @@
         <label for="amount">How many patties would you like?</label>
         <br>
         <!--说明：在此添加一个input for 'amount'，type 为number -->
+        <input type="number" name="amount" id="amount">
 
     </section>
 
@@ -26,7 +27,10 @@
         <label for="doneness">How do you want your patty cooked</label>
         <br>
         <!--说明：在此添加一个input for 'doneness'，type: range, default value: 3, min: 0, max: 5, step: 1  -->
-
+        <p>
+            Rare<input type="range" name="doneness" min="0" max="5" step="1" value="3">Well-Done
+        </p>
+        
     </section>
 
     <section class="toppings">
